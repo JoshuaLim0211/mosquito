@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
 
     void Start()
     {
-        range = 12f;
+        range = 18f;
         playerPhysics = GameObject.Find("Player").GetComponent<PlayerPhysics>();
         targetDirectIsRight = playerPhysics.isFacingRight;
 

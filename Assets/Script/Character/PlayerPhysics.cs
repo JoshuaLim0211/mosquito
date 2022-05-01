@@ -39,7 +39,7 @@ public class PlayerPhysics : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log(isGround);
+        //Debug.Log(isGround);
         Move();
         Jump();
         Fire();
